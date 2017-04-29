@@ -6,6 +6,7 @@ class canarydictionary:
         self.canarias['papa'] = 'patata'
         self.canarias['baifo'] = 'cabra'
         self.canarias['godo'] = 'miguel'
+        self.canarias['guagua'] = 'bus'
 
     def searchword(self, word):
         if word in self.canarias:
